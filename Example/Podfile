@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TestBundle_Example' do
+  pod 'TestBundle', :path => '../'
+
+  target 'TestBundle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
