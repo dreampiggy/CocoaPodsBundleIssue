@@ -1,0 +1,6 @@
+framework module TestBundle {
+  umbrella header "TestBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

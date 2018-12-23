@@ -1,0 +1,16 @@
+PODS:
+  - TestBundle (0.1.0)
+
+DEPENDENCIES:
+  - TestBundle (from `../`)
+
+EXTERNAL SOURCES:
+  TestBundle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestBundle: 590c0c0ad261d71f58b0508e91af9fa3dd9a8951
+
+PODFILE CHECKSUM: 9977f62397950d7c399f31a210e08073f06ce7db
+
+COCOAPODS: 1.5.3

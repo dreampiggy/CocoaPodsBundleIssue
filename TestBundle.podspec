@@ -30,11 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TestBundle/Classes/**/*'
+  s.source_files = 'TestBundle/**/*.h'
+  s.vendored_libraries = 'TestBundle/*.a'
   
-  # s.resource_bundles = {
-  #   'TestBundle' => ['TestBundle/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'TestBundleResource' => ['TestBundle/Assets/Images.xcassets']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
